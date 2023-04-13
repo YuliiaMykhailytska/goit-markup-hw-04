@@ -223,6 +223,17 @@ img {
 .about-list {
   width: calc((100% - 72px) / 4);
 }
+
+.icon-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
 .about-third-header {
   font-family: var(--font-family-roboto);
   font-weight: 500;
