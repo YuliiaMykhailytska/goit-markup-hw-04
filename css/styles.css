@@ -224,16 +224,20 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.icon-about {
+.about-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
-  background-color: #f4f4fd;
+  background-color: var(--footer-logo-color);
   border-radius: 4px;
   margin-bottom: 8px;
 }
 
+.svg-about-icon {
+  width: 64px;
+  height: 64px;
+}
 .about-third-header {
   font-family: var(--font-family-roboto);
   font-weight: 500;
