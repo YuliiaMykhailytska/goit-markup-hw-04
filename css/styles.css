@@ -353,6 +353,14 @@ img {
 
   text-align: center;
 }
+
+.team-social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
 /* =====================/TEAM===================== */
 
 /* =====================FOOTER===================== */
