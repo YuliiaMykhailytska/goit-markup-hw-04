@@ -147,15 +147,18 @@ img {
 .contact:focus {
   color: #404bbf;
 }
+/* MAIN page*/
 /* =====================/HEADER===================== */
-
 /* ======================HERO======================*/
 
 .hero {
-  background-color: var(--head-logo-color);
-
+  display: block;
+  content: "";
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: var(--head-logo-color);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-title {
@@ -346,7 +349,7 @@ img {
   max-width: 264px;
 }
 /* =====================/FOOTER===================== */
-/* /MAIN PAGE*/
+/* /MAIN page*/
 
 /* PORTFOLIO page*/
 /* ====================BTN==================== */
