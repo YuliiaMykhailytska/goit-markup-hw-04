@@ -59,6 +59,8 @@ img {
 /* =====================HEADER===================== */
 .main-header {
   border-bottom: 1px solid var(--border-bottom-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .main-header-container {
@@ -153,14 +155,17 @@ img {
 
 .hero {
   background-color: var(--head-logo-color);
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: url("../images/hero/people_office.jpg");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero/people_office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .main-title {
