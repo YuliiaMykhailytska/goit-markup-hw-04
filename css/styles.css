@@ -353,12 +353,42 @@ img {
 
   text-align: center;
 }
+.team-social-media-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid teal;
+}
 
 .team-social-media-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
+  border: 1px solid tomato;
+}
+
+.team-social-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-social-media-link {
+  display: flex;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--logo-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.team-social-media-link:hover,
+.team-social-media-link:focus {
+  background-color: var(--menu-link-color);
+}
+
+.team-social-media-svg {
+  fill: var(--footer-logo-color);
 }
 
 /* =====================/TEAM===================== */
