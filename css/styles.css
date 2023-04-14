@@ -353,11 +353,6 @@ img {
 
   text-align: center;
 }
-.team-social-media-container {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  border: 1px solid teal;
-}
 
 .team-social-media-list {
   display: flex;
