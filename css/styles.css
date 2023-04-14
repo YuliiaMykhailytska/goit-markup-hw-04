@@ -430,7 +430,7 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--menu-link-color);
-  color: var(var(--menu-link-color));
+  color: var(--menu-link-color);
 }
 
 .customers-svg {
