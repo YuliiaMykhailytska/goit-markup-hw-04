@@ -15,6 +15,8 @@
   --portfolio-modal-btn-background-color: #f4f4fd;
   --menu-link-color: #404bbf;
   --border-bottom-color: #e7e9fc;
+  --border-customers-color: #8e8f99;
+  --customers-box-color: #afb1b8;
 }
 
 /* reset */
@@ -384,6 +386,58 @@ img {
 }
 
 /* =====================/TEAM===================== */
+
+/* =====================CUSTOMERS===================== */
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.second-customers-header {
+  font-family: var(--font-family-roboto);
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--second-header-color);
+
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.menu-customers {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--border-customers-color);
+  border-radius: 4px;
+  color: var(--customers-box-color);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--menu-link-color);
+  color: var(var(--menu-link-color));
+}
+
+.customers-svg {
+  fill: currentColor;
+}
+
+/* =====================/CUSTOMERS===================== */
 
 /* =====================FOOTER===================== */
 .footer {
