@@ -491,6 +491,7 @@ img {
   height: 100%;
   border-radius: 50%;
   color: var(--border-customers-color);
+  background-color: var(--logo-color);
 }
 
 .footer-social-media-link:hover,
