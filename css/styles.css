@@ -474,6 +474,7 @@ img {
 .footer-social-media-list {
   display: flex;
   gap: 16px;
+  padding-inline-start: 0px;
 }
 
 .footer-social-media-item {
@@ -498,7 +499,7 @@ img {
 }
 
 .footer-social-media-svg {
-  color: currentColor;
+  color: var(--footer-logo-color);
 }
 
 /* =====================/FOOTER===================== */
